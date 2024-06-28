@@ -1,1 +1,5 @@
-# CS210-Program
+The CS210 project is designed with a clear goal: to make fiscal responsibility engaging and understandable for high school students. It achieves this through a practical, interactive application that vividly demonstrates the growth of investments over time, making the concept of saving and investing more relatable and less daunting for students.
+
+In my work on this project, I excelled in implementing input validation, ensuring the program processes only valid data. I also effectively structured the program to separate different functionalities, making it easy to understand and maintain. To enhance the code, I could implement more efficient compound interest calculation algorithms, improving performance for substantial inputs.
+
+The most challenging part of the code was the interest calculation, particularly managing the precision of floating-point calculations. I overcame this by using the <iomanip> library to format output, ensuring accurate and readable results. The skills I developed in input validation and error handling will be particularly transferable to other projects or coursework. I used a modular design and clear naming conventions to make the program maintainable, legible, and adaptable, structuring the program into separate functions and classes with meaningful variable and function names.
