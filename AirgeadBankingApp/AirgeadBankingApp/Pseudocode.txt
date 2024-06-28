@@ -1,0 +1,36 @@
+1. Display Welcome Message
+	- Print "Welcome to Airgead Banking App!"
+
+2. Get User Input
+	- Prompt for Initial Investment Amount (must be positive real number)
+	- Validate input: If invalid, ask again
+	- Prompt for Monthly Deposit (must be positive real number)
+	- Validate input: If invalid, ask again
+	- Prompt for Annual Interest Rate (must be positive real number)
+	- Validate input: If invalid, ask again
+	- Prompt for Number of Years (must be positive integer)
+	- Validate input: If invalid, ask again
+
+3. Display Input Summary and Wait for User to Continue
+	- Print summary of inputs
+	- Prompt user to press any key to continue
+
+4. Calculate Balances and Interests Without Monthly Deposit
+	- Initialize balance to Initial Investment Amount
+	- Loop through each year
+		- Loop through each month
+			- Calculate monthly interest
+			- Add interest to balance
+		- Print year-end balance and interest earned for the year
+
+5. Calculate Balances and Interests With Monthly Deposit
+	- Initialize balance to Initial Investment Amount
+	- Loop through each year
+		- Loop through each month
+			- Calculate monthly interest
+			- Add interest to balance
+			- Add Monthly Deposit to balance
+		- Print year-end balance and interst earned for the year
+
+6. End Program
+	- Print "Thank you for using Airgead Banking App!"
